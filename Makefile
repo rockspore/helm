@@ -162,7 +162,8 @@ coverage:
 	@scripts/coverage.sh
 
 HAS_GLIDE := $(shell command -v glide;)
-HAS_GOX := $(shell command -v gox;)
+HAS_GOX := $(shell command
+HAS_GLIDE := $(shell command -v glide;) -v gox;)
 HAS_GIT := $(shell command -v git;)
 
 .PHONY: bootstrap
